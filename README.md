@@ -24,10 +24,12 @@ Ao clicar no botão de busca, será exibido as seguintes informações do usuár
 - Foto de perfil
 - Bio
 
-![Mensagem de erro exibida](./my-app/src/assets/perfil.png)
+![Mensagem de erro exibida](./src/assets/perfil.png)
 
 
 3️⃣ Exibir mensagens de erro 
 
 Caso o perfil não seja encontrado será exibido a seguinte mensagem: 
-![Mensagem de erro exibida](./my-app/src/assets/erro.png)
+
+
+![Mensagem de erro exibida](./src/assets/erro.png)
