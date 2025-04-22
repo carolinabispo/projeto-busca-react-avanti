@@ -1,0 +1,21 @@
+.ellipse {
+    position: fixed;
+    width: 750px;
+    height: 750px;
+    z-index: 1;
+  
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #005cff 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  #topEllipse{
+    left: 65rem;
+    top: -200px;
+  }
+  #bottomEllipse{
+    left: -13rem;
+    top: 250px;
+  }
+  

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
+#foundProfile {
+  margin-top: 50px;
+  width: 53rem;
+  height: 16rem;
+
+  display: flex;
+
+  background-color: #d9d9d9;
+  border-radius: 25px;
+
+  #userDataText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1.5rem;
+    height: 100%;
+    width: 100%;
+
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 400;
+    color: black;
+  }
+
+  #userDataDetails {
+    margin-left: 1.5rem;
+    
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 400;
+    color: black;
+  }
+
+  img {
+    width: 220px;
+    height: 220px;
+
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  h2 {
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 600;
+    color: #005cff;
+  }
+
+  p {
+    font-size: large;
+  }
+}
+
+.notFoundUser {
+  margin-top: 50px;
+  width: 53rem;
+  height: 6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-color: #d9d9d9;
+  border-radius: 25px;
+  color: red;
+  font-family: "Mona Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
